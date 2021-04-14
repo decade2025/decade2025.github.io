@@ -4,6 +4,66 @@
   
     
     <entry>
+      <title>面试官：说出100个常用的Linux命令！</title>
+      <link href="2021/04/14/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E8%AF%B4%E5%87%BA100%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84Linux%E5%91%BD%E4%BB%A4%EF%BC%81/"/>
+      <url>2021/04/14/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E8%AF%B4%E5%87%BA100%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84Linux%E5%91%BD%E4%BB%A4%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>前几天发了<a href="https://www.modb.pro/db/26274">面试官：说出10个常用的Linux命令！</a>，朋友评论说让我再发10个，OK，我去特意复习总结了一下，再来“100“个！</p><p>在日常开发过程中，Linux命令是必不可少的，但是很多像我这样的新手，面对那么多的命令，很难一下记住，然后每次不知道该用啥命令，就去搜索，有时候会搜很久，很浪费时间，所以，参考和搜索了很多教程，分类总结汇总了如下常用命令，方便查询使用！</p><ul>    <li><a href="#1">一、Linux目录结构</a></li>    <li><a href="#2">二、Linux常用操作</a></li>        <ul>            <li><a href="#2_1">1、文件&目录操作</a></li>            <li><a href="#2_2">2、权限管理</a></li>        <li><a href="#2_3">3、查找</a></li>        <li><a href="#2_4">4、压缩包管理</a></li>        <li><a href="#2_5">5、进程管理</a></li>        <li><a href="#2_6">6、网络管理</a></li>        <li><a href="#2_7">7、用户管理</a></li>        <li><a href="#2_8">8、其他</a></li>        </ul>    <li><a href="#3">三、Vim常用命令</a></li></ul><h2 style="color:#0090ff"><a id=1></a>一、Linux目录结构</h2><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2Ff084513b-9d9b-4de6-86e0-e04c6e57e81e.png" alt="image.png"></p><h2 style="color:#0090ff"><a id=2></a>二、Linux常用操作</h2><hr><h3 style="color:#0090ff"><a id=2_1></a>1、文件&目录操作</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2F26bf2c59-a6a2-42fd-80de-0d7b4ac439bc.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_2></a>2、权限管理</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2Fcd7458df-dd42-4e77-b5dd-af506819a083.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_3></a>3、查找</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2F271e6373-16c7-4ec8-911e-80c2cf149a0b.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_4></a>4、压缩包管理</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2F74c59190-3d86-4cd5-85eb-74a870d9c0ff.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_5></a>5、进程管理</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2F471602a3-7067-473f-90c7-cd5a74b16827.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_6></a>6、网络管理</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2Fa5ac00e7-28d3-4bcd-8ced-3e474d306615.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_7></a>7、用户管理</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2Fc25f7d77-82ff-4045-9c9c-79481ac6672c.png" alt="image.png"></p><h3 style="color:#0090ff"><a id=2_8></a>8、其他</h3><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2Fb857682c-c1e9-4d6b-9baf-7c31d608c5fb.png" alt="image.png"></p><h2 style="color:#0090ff"><a id=3></a>三、Vim常用命令</h2><hr><p><img src="https://obs-emcsapp-public.obs.cn-north-4.myhwclouds.com/image%2Feditor%2F248e287d-fec9-4831-8dda-c5458829bae6.png" alt="image.png"></p><p><strong>OK，数数够不够100个！</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运维 </category>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 运维 </tag>
+            
+            <tag> linux </tag>
+            
+            <tag> 面试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java招聘岗位分析</title>
+      <link href="2021/04/14/Java%E6%8B%9B%E8%81%98%E5%B2%97%E4%BD%8D%E5%88%86%E6%9E%90/"/>
+      <url>2021/04/14/Java%E6%8B%9B%E8%81%98%E5%B2%97%E4%BD%8D%E5%88%86%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、代码简单展示"><a href="#一、代码简单展示" class="headerlink" title="一、代码简单展示"></a>一、代码简单展示</h2><blockquote><p>数据获取、数据清洗、数据计算，整个流程使用python进行实现。</p></blockquote><p>部分代码如下：</p><p><img src="https://oss-emcsprod-public.modb.pro/image/editor/20210202-da53c4f4-04fd-44e0-8a59-5173f936b421.png" alt="image.png"></p><h2 id="二、学历要求"><a href="#二、学历要求" class="headerlink" title="二、学历要求"></a>二、学历要求</h2><blockquote><p>在招聘要求中，大多要求本科及以上学历，但是也有30%的招聘要求达到专科即可。</p></blockquote><p><img src="https://oss-emcsprod-public.modb.pro/image/editor/20210202-095363d3-4c39-4a1b-bc6c-8483062d2b0d.png" alt="image.png"></p><h2 id="三、薪资分布"><a href="#三、薪资分布" class="headerlink" title="三、薪资分布"></a>三、薪资分布</h2><blockquote><p>Java开发的薪资主要分布在10-20k, 也有38%的Java开发工资在5-10k,这部分应该主要是应届或初级java岗位，随着工作经验积累，普遍能达到10-20k,较为优秀的大佬也能达到40k以上。</p></blockquote><p><img src="https://oss-emcsprod-public.modb.pro/image/editor/20210202-69d1cfe8-2405-4cc5-b9c0-a9dad099862c.png" alt="image.png"></p><h2 id="四、工作年限需求分布"><a href="#四、工作年限需求分布" class="headerlink" title="四、工作年限需求分布"></a>四、工作年限需求分布</h2><blockquote><p>3-10年的Java开发是职场黄金期，此时一般都具有较为丰富的开发经验，比较受招聘公司的青睐。</p></blockquote><p><img src="https://oss-emcsprod-public.modb.pro/image/editor/20210202-4a1367da-a874-4033-9fc9-212448c77972.png" alt="image.png"></p><p>ps: 有人会问了，那十年以上的呢？去送外卖了吗？个人推测，现实也没有那么悲观，大多应该是10年经验转架构或者管理了，所以10年以上的纯java开发可能就会比较少了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+            <tag> 薪资 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mysql索引为什么采用B+树？索引为什么要自增？</title>
       <link href="2021/04/14/Mysql%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%87%E7%94%A8B-%E6%A0%91%EF%BC%9F%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%87%AA%E5%A2%9E%EF%BC%9F/"/>
       <url>2021/04/14/Mysql%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%87%E7%94%A8B-%E6%A0%91%EF%BC%9F%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%87%AA%E5%A2%9E%EF%BC%9F/</url>
@@ -25,6 +85,33 @@
             <tag> 数据库 </tag>
             
             <tag> 索引 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python日志库logging的使用</title>
+      <link href="2021/04/14/Python%E6%97%A5%E5%BF%97%E5%BA%93logging%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+      <url>2021/04/14/Python%E6%97%A5%E5%BF%97%E5%BA%93logging%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、创建日志配置类"><a href="#一、创建日志配置类" class="headerlink" title="一、创建日志配置类"></a>一、创建日志配置类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"># encoding&#x3D;utf-8</span><br><span class="line">import logging</span><br><span class="line">import time</span><br><span class="line">import os</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 创建存储日志的路径</span><br><span class="line">log_path &#x3D; os.getcwd()</span><br><span class="line">class Log(object):</span><br><span class="line">    def __init__(self):</span><br><span class="line">        # 文件的命名</span><br><span class="line">        self.logname &#x3D; os.path.join(log_path, &#39;%s.log&#39; % time.strftime(&#39;%Y_%m_%d&#39;))</span><br><span class="line">        # 创建日志对象</span><br><span class="line">        self.logger &#x3D; logging.getLogger(__name__)</span><br><span class="line">        self.logger.setLevel(logging.DEBUG)</span><br><span class="line">        # 日志输出格式</span><br><span class="line">        self.formatter &#x3D; logging.Formatter(&#39;[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s&#39;)</span><br><span class="line"></span><br><span class="line">    def config(self, level, message):</span><br><span class="line">        # 创建一个FileHandler，用于写到本地</span><br><span class="line">        file_handler &#x3D; logging.FileHandler(self.logname, &#39;a&#39;, encoding&#x3D;&#39;utf-8&#39;)</span><br><span class="line">        file_handler.setLevel(logging.DEBUG) # 设置等级</span><br><span class="line">        file_handler.setFormatter(self.formatter) # 把输出格式加入输出方式</span><br><span class="line">        self.logger.addHandler(file_handler) # 把以上设置加入对象</span><br><span class="line"></span><br><span class="line">        # 创建一个StreamHandler,用于输出到控制台</span><br><span class="line">        stream_handler &#x3D; logging.StreamHandler()</span><br><span class="line">        stream_handler.setLevel(logging.DEBUG)</span><br><span class="line">        stream_handler.setFormatter(self.formatter)</span><br><span class="line">        self.logger.addHandler(stream_handler)</span><br><span class="line"></span><br><span class="line">        if level &#x3D;&#x3D; &#39;info&#39;:</span><br><span class="line">            self.logger.info(message)</span><br><span class="line">        elif level &#x3D;&#x3D; &#39;debug&#39;:</span><br><span class="line">            self.logger.debug(message)</span><br><span class="line">        elif level &#x3D;&#x3D; &#39;warning&#39;:</span><br><span class="line">            self.logger.warning(message)</span><br><span class="line">        elif level &#x3D;&#x3D; &#39;error&#39;:</span><br><span class="line">            self.logger.error(message)</span><br><span class="line">        # 这两行代码是为了避免日志输出重复问题</span><br><span class="line">        self.logger.removeHandler(file_handler)</span><br><span class="line">        self.logger.removeHandler(stream_handler)</span><br><span class="line">        # 关闭打开的文件</span><br><span class="line">        file_handler.close()</span><br><span class="line"></span><br><span class="line">    def debug(self, message):</span><br><span class="line">        self.__console(&#39;debug&#39;, message)</span><br><span class="line"></span><br><span class="line">    def info(self, message):</span><br><span class="line">        self.__console(&#39;info&#39;, message)</span><br><span class="line"></span><br><span class="line">    def warning(self, message):</span><br><span class="line">        self.__console(&#39;warning&#39;, message)</span><br><span class="line"></span><br><span class="line">    def error(self, message):</span><br><span class="line">        self.__console(&#39;error&#39;, message)</span><br></pre></td></tr></table></figure><blockquote><p><strong>日志输出格式参数</strong><br>%(levelno)s：打印日志级别的数值<br>%(levelname)s：打印日志级别的名称<br>%(pathname)s：打印当前执行程序的路径，其实就是sys.argv[0]<br>%(filename)s：打印当前执行程序名<br>%(funcName)s：打印日志的当前函数<br>%(lineno)d：打印日志的当前行号<br>%(asctime)s：打印日志的时间<br>%(thread)d：打印线程ID<br>%(threadName)s：打印线程名称<br>%(process)d：打印进程ID<br>%(message)s：打印日志信息</p></blockquote><h2 id="二、使用日志"><a href="#二、使用日志" class="headerlink" title="二、使用日志"></a>二、使用日志</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">from log_init import Log </span><br><span class="line">log.info(“这是个Info日志&quot;)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+          <category> python开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
             
         </tags>
       
