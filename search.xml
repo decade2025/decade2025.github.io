@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Mysql索引为什么采用B+树？索引为什么要自增？</title>
+      <link href="2021/04/14/Mysql%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%87%E7%94%A8B-%E6%A0%91%EF%BC%9F%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%87%AA%E5%A2%9E%EF%BC%9F/"/>
+      <url>2021/04/14/Mysql%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%87%E7%94%A8B-%E6%A0%91%EF%BC%9F%E7%B4%A2%E5%BC%95%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%87%AA%E5%A2%9E%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="1、索引作用是什么？使用什么数据结构存储？"><a href="#1、索引作用是什么？使用什么数据结构存储？" class="headerlink" title="1、索引作用是什么？使用什么数据结构存储？"></a>1、索引作用是什么？使用什么数据结构存储？</h3><blockquote><p>【作用】：加快数据检索</p><p>【数据结构】：B+树</p></blockquote><h3 id="2、为什么使用B-树存储索引？"><a href="#2、为什么使用B-树存储索引？" class="headerlink" title="2、为什么使用B+树存储索引？"></a>2、为什么使用B+树存储索引？</h3><p><code>B+树减少了IO操作且底层节点是所有数据的有序排列，便于范围查找，排序查找，分组查找以及去重查找</code></p><blockquote><p>首先，索引存储是k-v格式的，即索引-行数据，那么常见可以选择的数据结构有：hash表、二叉树、B树、B+树。</p><p>【<strong>hash表</strong>】</p><p>需要很优良的hash算法避免数据散列带来的浪费空间和查询快慢不均匀，并且hash表是无序的，相当于全表扫描，但是由于hash是在内存中进行的，所以即使如此依旧很快，但是核心问题就是在内存中太消<code>耗内存</code>。</p><p>【<strong>二叉树</strong>】</p><p>每个节点只有2个子树，如果数据量很大的时候，那树的层级就很深，查找次数会很大，影响查询速率。</p></blockquote><blockquote><p>【<strong>B树</strong>】</p><p>B树相当于二叉树来说，每个节点可以有多个子树，这样就保证了层级较浅，查询效率提高，但是，由于索引数据存在磁盘，查询需要IO操作，IO操作相对内存来说是非常慢的，因此需要尽量减少IO操作次数，因此读取数据是按照磁盘块(文件系统读写数据的最小单位)读取，而Innodb中页(内存的最小存储单位。页的大小通常为磁盘块大小的 2^n 倍)的默认大小是16kb，由于B树的页中存储的是k-v，大大降低了页中存储的索引数，因此，增加了IO操作次数，降低了查询效率。另外，B树的数据分散在各个节点，要实现范围查找，排序查找，分组查找以及去重查找相对较复杂，也降低了速率。</p></blockquote><p><img src="https://oss-emcsprod-public.modb.pro/image/editor/20210410-217ec084-618b-4d6b-bcf9-a80020bc0840.png" alt="image.png"></p><blockquote><p>【<strong>B+树</strong>】</p><p>B+树除底层页以外，页中只存k，这样单页中就能存储更多的索引值，减少了IO操作，从而加快了查询速率。</p><p>因为B+树索引的所有数据均存储在叶子节点，而且数据是按照顺序排列的。那么B+树使得范围查找，排序查找，分组查找以及去重查找变得异常简单。  </p><p>这样如果我们的B+树一个节点可以存储1000个键值，那么3层B+树可以存储1000×1000×1000=10亿个数据。一般根节点是常驻内存的，所以一般我们查找10亿数据，只需要2次磁盘IO。</p></blockquote><p><img src="https://oss-emcsprod-public.modb.pro/image/editor/20210410-46ca4211-353d-4fad-8768-2a42f4d928b9.png" alt="image.png"></p><h3 id="3、索引用int还是varchar？"><a href="#3、索引用int还是varchar？" class="headerlink" title="3、索引用int还是varchar？"></a>3、索引用int还是varchar？</h3><blockquote><p>用Int因为int占用字节较小，根节点可以存储更多的key(索引值)</p></blockquote><h3 id="4、索引要不要自增？为什么？"><a href="#4、索引要不要自增？为什么？" class="headerlink" title="4、索引要不要自增？为什么？"></a>4、索引要不要自增？为什么？</h3><blockquote><p>要</p><p>索引自增可以减少分裂。如果不是自增的，那索引值是无序的，但是B+树底层节点是排序的，因此当需要插入的页满了，则需要分裂为两个页，上层也需要做出相应变化。而如果是自增的，那只需要往后追加，不会影响前面的数据。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据库 </tag>
+            
+            <tag> 索引 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图解:https加密方式</title>
       <link href="2021/04/14/%E5%9B%BE%E8%A7%A3-https%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/"/>
       <url>2021/04/14/%E5%9B%BE%E8%A7%A3-https%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/</url>
